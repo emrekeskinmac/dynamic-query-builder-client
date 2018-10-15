@@ -8,7 +8,7 @@
     "dev": "nodemon --watch src -e ts --exec 'npm run test'",
     "prepublish": "npm run test && npm run build",
     "pretest": "tsc",
-    "test": "node ./dist/test/index.js",
+    "test": "node ./dist/test/index.js && npm run coverage",
     "test:debug": "node --inspect-brk ./dist/test/index.js",
     "coverage": "rimraf ./istanbul && tsc && istanbul cover dist/test/index.js --report lcov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
