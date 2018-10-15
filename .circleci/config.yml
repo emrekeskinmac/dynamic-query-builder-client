@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run: npm install
       - run: npm test
-      - run:bash <(curl -s https://codecov.io/bash) -f coverage/coverage.json
+      - run: bash <(curl -s https://codecov.io/bash) -f coverage/coverage.json
