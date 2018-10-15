@@ -25,6 +25,7 @@
   "devDependencies": {
     "@types/node": "^10.11.3",
     "@types/tape": "^4.2.32",
+    "coveralls": "^3.0.2",
     "istanbul": "^0.4.5",
     "ncp": "^2.0.0",
     "nodemon": "^1.18.2",
