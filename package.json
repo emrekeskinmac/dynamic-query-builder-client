@@ -8,9 +8,9 @@
     "dev": "nodemon --watch src -e ts --exec 'npm run test'",
     "prepublish": "npm run test && npm run build",
     "pretest": "tsc",
-    "test": "node ./dist/test/index.js && npm run coverage",
+    "test": "node ./dist/test/index.js",
     "test:debug": "node --inspect-brk ./dist/test/index.js",
-    "coverage": "rimraf ./istanbul && tsc && istanbul cover dist/test/index.js --report lcov && ./node_modules/.bin/codecov"
+    "coverage": "rimraf ./istanbul && tsc && istanbul cover dist/test/index.js --report lcov && ./node_modules/.bin/codecov -f coverage/coverage.json"
   },
   "repository": {
     "type": "git",
