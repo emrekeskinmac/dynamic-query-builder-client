@@ -10,7 +10,7 @@
     "pretest": "tsc",
     "test": "node ./dist/test/index.js",
     "test:debug": "node --inspect-brk ./dist/test/index.js",
-    "coverage": "rimraf ./istanbul && tsc && istanbul cover dist/test/index.js --report lcov && ./node_modules/.bin/codecov -f coverage/coverage.json"
+    "coverage": "rimraf ./istanbul && tsc && istanbul cover dist/test/index.js"
   },
   "repository": {
     "type": "git",
