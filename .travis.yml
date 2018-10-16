@@ -7,5 +7,5 @@ script:
   - npm test
   - npm run coverage
 
-after_script:
-  - npm run report
+after_success:
+  - bash < (curl -s https://codecov.io/bash)
