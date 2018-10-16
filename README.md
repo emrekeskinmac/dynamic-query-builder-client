@@ -1,7 +1,6 @@
 # Dynamic Query Builder Client
 
 [![CircleCI](https://circleci.com/gh/oplog/dynamic-query-builder-client.svg?style=svg)](https://circleci.com/gh/oplog/dynamic-query-builder-client)
-
 ![istanbul coverange](https://img.shields.io/badge/code%20coverange-93.04-green.svg)
 
 Dynamic query builder is able to build http query string for `filtering`, `sorting`, `pagination` operations. It works with [DynamicQueryBuilder](https://oplog.visualstudio.com/RnD/Omni%20Code/_git/OmniServices?path=%2Fsrc%2Fbackend%2FDynamicQueryBuilder%2FREADME.md&version=GBmaster&_a=preview) library.
